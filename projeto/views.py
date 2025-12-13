@@ -6,5 +6,5 @@ def ona_view(request):
 
 def index_view(request):
     #return HttpResponse("Padrão Ona 2")
-    return render(request, 'home.html')
+    return render(request, 'index.html')
 
