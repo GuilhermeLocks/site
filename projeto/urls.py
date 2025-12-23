@@ -21,6 +21,7 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('ona/', views.ona_view),
+    path('ona2/', views.ona2_view),
     path('', views.index_view),
 ]
 # python manage.py runserver
